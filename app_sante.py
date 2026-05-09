@@ -61,11 +61,22 @@ def main():
         st.subheader("Présentation du projet")
 
         st.write("""
-        Cette application prédit le nombre de médecins dans un district
-        sanitaire au Cameroun à partir d'indicateurs socio-sanitaires.
+        Cette application a été développée dans le but d’analyser et de prédire
+le nombre de médecins dans les districts sanitaires au Cameroun à partir
+de plusieurs indicateurs socio-sanitaires et économiques.
 
-        Le modèle utilisé est un XGBoost Regressor entraîné sur le dataset
-        sante_cameroun.csv.
+Le modèle utilisé est un algorithme de Machine Learning de type
+XGBoost Regressor, entraîné sur un ensemble de données contenant
+des informations relatives aux conditions sanitaires, au niveau de revenu,
+à l’accès aux soins, au taux de vaccination ainsi qu’à d’autres facteurs
+susceptibles d’influencer la disponibilité du personnel médical.
+
+L’objectif principal de cette application est de fournir un outil
+d’analyse et d’aide à la décision permettant de mieux comprendre
+les disparités sanitaires entre les districts et d’estimer les besoins
+potentiels en ressources médicales.
+
+Le dataset utilisé est `sante_cameroun.csv`.
         """)
 
         st.subheader("Variables du dataset")
